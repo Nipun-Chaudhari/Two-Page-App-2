@@ -1,0 +1,110 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    ion-button{
+      ion-icon{
+        color: black;
+      }
+    }
+}
+
+.item-image{
+    // border: 2px solid orangered;
+    height: 40%;
+    text-align: center;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    span{
+        font-size: 10px;
+        font-weight: 600;
+        color: gray;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+.place-order{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+    ion-card{
+        width: 40%;
+        margin: auto;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px;
+        color: rgb(235, 104, 56);
+        background-color: wheat;
+        border: 1px solid wheat;
+        border-radius: 50px 50px 50px 50px;
+      }
+
+    .buttons{
+        width: 30%;
+        height: 50px;
+        text-align: center;
+        margin: 20px auto;
+        position: fixed;
+        left: 60%;
+        right: 0px;
+        bottom: 50px;
+        color: white;
+        background-color: rgb(153, 148, 146);
+        border: 1px solid rgb(153, 148, 146);
+        border-radius: 50px 50px 50px 50px;
+    }
+
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+
+    .customizations{
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        padding: 11px;
+    }
+
+    .specification{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 11px;
+        color: rgb(235, 104, 56);
+    }
+}
+
+.address{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+
+    ion-input{
+        border: 1px solid black;
+        border-radius: 50px;
+        text-align: left;
+        padding: 15px;
+    }
+}
